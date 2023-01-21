@@ -1,5 +1,8 @@
 module SpectralUtils
 
-greet() = print("Hello World!")
+VecI = AbstractVector
+
+include("./1D-fft/twiddle.jl")
 
 end # module SpectralUtils
+
