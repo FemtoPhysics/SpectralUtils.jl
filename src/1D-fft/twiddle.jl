@@ -22,7 +22,7 @@ function twiddle!(warr::VecI{Complex{T}}) where T<:Real
         return warr
     end
 
-    invNby2 = inv(Nby2) # 2π / N
+    invNby2 = inv(Nby2) # 2 / N
     cosθ = cospi(invNby2) # cos(2π / N)
     sinθ = sinpi(invNby2) # sin(2π / N)
 
